@@ -1,0 +1,9 @@
+image: maven:3-jdk-8
+cache:
+ paths:
+ - $HOME/.m2/
+
+test:
+  stage: test
+  script:
+    - mvn test
