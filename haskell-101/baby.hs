@@ -1,3 +1,15 @@
-doubleMe x = x + x
+doubleMe x = x + x + x
 doubleUs x y = (doubleMe x) + (doubleMe y)
 doublePlus x y = x + x + y + y
+doubleSmallNumber x = (if x > 100 then x else x * 2) + 1
+conanO'Brien = "It's a-me, Conan O'Brien!"
+hiname = "mike"
+hi name = name
+lostNumbers = [4, 8, 15, 16, 23, 42]
+numberListCombine = [1, 2, 3, 4] ++ [5, 6, 7, 8]
+stringCombine = "Hello" ++ " " ++ "World"
+addBeginStr = 'A' : " World"
+addBeginArr = 5 : [1, 2, 3, 4]
+plusArr = [] : []
+name = "Sittikiat Sujitranon" !! 2
+arr = [23.4, 12, 43] !! 0
