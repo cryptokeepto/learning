@@ -13,3 +13,6 @@ addBeginArr = 5 : [1, 2, 3, 4]
 plusArr = [] : []
 name = "Sittikiat Sujitranon" !! 2
 arr = [23.4, 12, 43] !! 0
+arrLength = length [1, 2, 3, 4]
+checkIsEmpty = null []
+checkIsNotEmpty = null [1, 2, 4]
